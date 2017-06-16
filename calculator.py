@@ -52,6 +52,7 @@ def main():
     k = k.replace('?', '')
     k = k.replace('%', '/100')
 
+# prints the result of the input equation
     print ("\n" + str(calc(k)))
     
 if __name__ == "__main__":
